@@ -1,5 +1,5 @@
 @file:JvmName("Util") // this is to call all top level function as static ones
-package intro
+package intro_1
 
 
 // Resume:
@@ -22,8 +22,6 @@ fun max(a: Int, b: Int) = if (a > b) a else b
 
 fun main() {
     println("max value is ${max(5, 10)}")
-
-
     println("top level is ${topLevel()}")
     println("member function is ${A().member()}")
     println("local function is ${other()}")

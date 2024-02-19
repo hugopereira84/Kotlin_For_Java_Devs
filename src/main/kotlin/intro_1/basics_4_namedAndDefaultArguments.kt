@@ -1,4 +1,4 @@
-package intro
+package intro_1
 
 fun displaySeparator(character: Char = '*', size: Int = 10) {
     repeat(size){
