@@ -22,8 +22,6 @@ fun main() {
     println(foo1)
     println(foo1)
     println(foo1)
-
     println(foo3)
-
     println(foo4)
 }
